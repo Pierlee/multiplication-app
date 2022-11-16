@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(https://images.unsplash.com/photo-1634176866089-b633f4aec882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80);
+  background-color: yellow;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+  background-size: cover;
+}
+
+.form{
+  background-color: aliceblue;
+  padding: 40px;
+  border: 5px solid rgb(113, 113, 204);
+  box-shadow: 8px 8px 8px rgb(142, 145, 145);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.input{
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  border: 5px solid rgb(113, 113, 204);
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.input::placeholder{
+  color: rgb(200, 200, 200);
+  font-family: cursive;
+}
+.btn{
+  background-color: rgb(158, 158, 228);
+  width: 100%;
+  display: block;
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: cursive;
+  margin: 20px 0;
+  box-shadow: 0 2px 5px rgb(0, 0, 0, .3);
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(113, 113, 204);
+}
+
+.score{
+  color: rgb(113, 113, 204);
+  text-align: right;
+}
